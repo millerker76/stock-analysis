@@ -39,6 +39,6 @@ frustration for the users.<br>The only disadvantage I can think of in refactorin
 
 - How do these pros and cons apply to refactoring the original VBA script?
 <br>There was a good payoff in refactoring the original VBA script.  It was a good way to learn about and practice using output arrays and made the program flow more logical and efficient and it helped me to understand the code better to go through and document it as part of the refactoring. By outputting the results to the screen only once at the end of program execution, it reduced annoying flickering that occurred in the original program which displayed results data row by row as the program ran.   It also certainly drove home the point that changing existing code
-that works - even if maybe not ideally - can take time and introduce errors!  It was an interesting exercise to see if the refactoring
-had a noticeable impact on performance (time per analysis run).
+that already works, even if the existing code is clunky, can take a lot of time and introduce errors that need to be worked out!  It was an interesting exercise to see if the refactoring
+had a noticeable impact on performance (time per analysis run) although in this case the results weren't conclusive.
 
